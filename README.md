@@ -123,6 +123,10 @@ Run the program by entering the following command:
 
 #### `.\client.exe`
 
+## Usage
+
+After launching the program, follow the on-screen instructions to interact with the system, place orders, and manage your stock portfolio.
+
 ## Contributing
 If you want to contribute to this project, please follow these guidelines:
 
