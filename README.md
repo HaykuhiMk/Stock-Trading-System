@@ -20,7 +20,7 @@ This system offers a wide range of features and tools to simplify the stock trad
 
 **Open Source:** The Stock Trading System is an open-source project, which means that it is continuously evolving and open to contributions from the community.
 
-### Installation
+## Installation
 To set up the Stock Trading System on your local machine, follow these steps:
 
 #### 1. Clone the repository:
