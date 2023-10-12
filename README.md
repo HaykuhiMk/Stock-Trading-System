@@ -6,6 +6,8 @@ This system offers a wide range of features and tools to simplify the stock trad
 
 ### ~ Features
 ### ~ Installation
+### ~ How to Run the Program for Server
+### ~ How to Run the Program for Client
 ### ~ Usage
 ### ~ Contributing
 
@@ -23,9 +25,103 @@ This system offers a wide range of features and tools to simplify the stock trad
 ## Installation
 To set up the Stock Trading System on your local machine, follow these steps:
 
-#### 1. Clone the repository:
 `git clone https://github.com/HaykuhiMk/Stock-Trading-System.git`
 
+## How to Run the Program for Server
+To execute the Multi-Threaded Stock Trading System for server, follow the steps below.
+
+Prerequisites: Ensure that you have CMake and a compatible C++ compiler installed on your system.
+
+### Option 1: Running with CMake 
+1. Open a terminal or command prompt.
+
+1. Navigate to the directory where you have downloaded or cloned the CPU-simulator repository.
+
+1. Create a new directory called "build" for out-of-source builds:
+
+
+#### `mkdir build`
+
+  4. Move into the "build" directory:
+
+
+#### `cd build`
+
+  5. Generate the build files using CMake:
+
+
+#### `cmake ..`
+
+6. Build the project using the following command:
+
+
+#### `cmake --build .`
+
+7.Once the build process is complete, you can run the program by entering the following command:
+
+
+#### `.\ServerPart.exe`
+
+### Option 2: Running with Manual Compilation
+1. Open a terminal or command prompt.
+
+1. Navigate to the directory where you have downloaded or cloned the Stock-Trading-System repository.
+
+1. Compile the source code files using the following command:
+
+#### g++ -std=c++11 -I./include ../src/limitOrder.cpp ../src/limitTrader.cpp ../src/marketOrder.cpp ../src/marketTrader.cpp ../src/order.cpp ../src/stock.cpp ../src/trader.cpp ./server.cpp ./main.cpp ./orderBook.cpp ./limitArchivedOrder.cpp ./archivedOrder.cpp -lws2_32 -o server
+
+Run the program by entering the following command:
+
+#### .\server.exe
+
+## How to Run the Program for Client
+To execute the Multi-Threaded Stock Trading System for client, follow the steps below.
+
+Prerequisites: Ensure that you have CMake and a compatible C++ compiler installed on your system.
+
+### Option 1: Running with CMake 
+1. Open a terminal or command prompt.
+
+1. Navigate to the directory where you have downloaded or cloned the CPU-simulator repository.
+
+1. Create a new directory called "build" for out-of-source builds:
+
+
+#### `mkdir build`
+
+4. Move into the "build" directory:
+
+
+#### `cd build`
+
+5. Generate the build files using CMake:
+
+
+#### `cmake ..`
+
+6. Build the project using the following command:
+
+
+#### `cmake --build .`
+
+7.Once the build process is complete, you can run the program by entering the following command:
+
+
+#### `.\ClientPart.exe`
+
+### Option 2: Running with Manual Compilation
+1. Open a terminal or command prompt.
+
+1. Navigate to the directory where you have downloaded or cloned the Stock-Trading-System repository.
+
+1. Compile the source code files using the following command:
+
+g++ -std=c++11 -I./include ../src/limitOrder.cpp ../src/limitTrader.cpp ../src/marketOrder.cpp ../src/marketTrader.cpp ../src/order.cpp ../src/stock.cpp ../src/trader.cpp ./client.cpp ./main.cpp -lws2_32 -o client
+
+Run the program by entering the following command:
+
+#### .\client.exe
 
 ## Contributing
 If you want to contribute to this project, please follow these guidelines:
