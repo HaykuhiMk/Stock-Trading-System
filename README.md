@@ -25,3 +25,13 @@ To set up the Stock Trading System on your local machine, follow these steps:
 
 #### 1. Clone the repository:
 `git clone https://github.com/HaykuhiMk/Stock-Trading-System.git`
+
+
+## Contributing
+If you want to contribute to this project, please follow these guidelines:
+
+1. Fork the repository and create a new branch for your feature or bug fix.
+
+1. Make your changes, test them thoroughly, and ensure that your code adheres to the project's coding standards.
+
+1. Submit a pull request with a clear description of your changes, why they are needed, and any potential impact.
