@@ -135,3 +135,6 @@ If you want to contribute to this project, please follow these guidelines:
 1. Make your changes, test them thoroughly, and ensure that your code adheres to the project's coding standards.
 
 1. Submit a pull request with a clear description of your changes, why they are needed, and any potential impact.
+
+## Links
+For a comprehensive guide on mastering this multi-threaded Stock Trading System in C++, we highly recommend reading our article on Medium: [1]https://medium.com/@haykuhimkrtchyan09/mastering-a-multi-threaded-stock-trading-system-in-c-a-comprehensive-guide-6c3a233a918d "Mastering a Multi-Threaded Stock Trading System in C++."
