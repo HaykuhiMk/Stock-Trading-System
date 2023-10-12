@@ -69,11 +69,11 @@ Prerequisites: Ensure that you have CMake and a compatible C++ compiler installe
 
 1. Compile the source code files using the following command:
 
-#### g++ -std=c++11 -I./include ../src/limitOrder.cpp ../src/limitTrader.cpp ../src/marketOrder.cpp ../src/marketTrader.cpp ../src/order.cpp ../src/stock.cpp ../src/trader.cpp ./server.cpp ./main.cpp ./orderBook.cpp ./limitArchivedOrder.cpp ./archivedOrder.cpp -lws2_32 -o server
+#### `g++ -std=c++11 -I./include ../src/limitOrder.cpp ../src/limitTrader.cpp ../src/marketOrder.cpp ../src/marketTrader.cpp ../src/order.cpp ../src/stock.cpp ../src/trader.cpp ./server.cpp ./main.cpp ./orderBook.cpp ./limitArchivedOrder.cpp ./archivedOrder.cpp -lws2_32 -o server`
 
 Run the program by entering the following command:
 
-#### .\server.exe
+#### `.\server.exe`
 
 ## How to Run the Program for Client
 To execute the Multi-Threaded Stock Trading System for client, follow the steps below.
@@ -117,11 +117,11 @@ Prerequisites: Ensure that you have CMake and a compatible C++ compiler installe
 
 1. Compile the source code files using the following command:
 
-g++ -std=c++11 -I./include ../src/limitOrder.cpp ../src/limitTrader.cpp ../src/marketOrder.cpp ../src/marketTrader.cpp ../src/order.cpp ../src/stock.cpp ../src/trader.cpp ./client.cpp ./main.cpp -lws2_32 -o client
+#### `g++ -std=c++11 -I./include ../src/limitOrder.cpp ../src/limitTrader.cpp ../src/marketOrder.cpp ../src/marketTrader.cpp ../src/order.cpp ../src/stock.cpp ../src/trader.cpp ./client.cpp ./main.cpp -lws2_32 -o client`
 
 Run the program by entering the following command:
 
-#### .\client.exe
+#### `.\client.exe`
 
 ## Contributing
 If you want to contribute to this project, please follow these guidelines:
