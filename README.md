@@ -20,15 +20,8 @@ This system offers a wide range of features and tools to simplify the stock trad
 
 **Open Source:** The Stock Trading System is an open-source project, which means that it is continuously evolving and open to contributions from the community.
 
+### Installation
+To set up the Stock Trading System on your local machine, follow these steps:
 
-User Registration and Authentication: Secure user registration and authentication system to ensure that only authorized users can access the platform.
-
-Stock Market Data: Real-time or historical stock market data retrieval to provide users with up-to-date information on stock prices, trends, and historical performance.
-
-Portfolio Management: A feature-rich portfolio management system that allows users to track their investments, view their portfolio's performance, and make informed decisions.
-
-Order Execution: Buy and sell orders can be executed directly within the platform, with options for market orders, limit orders, and more.
-
-Alerts and Notifications: Users can set up alerts and notifications for price changes, news updates, or other events related to their selected stocks.
-
-Data Analysis and Visualization: Tools for analyzing and visualizing stock data, including charts, graphs, and historical performance indicators.
+#### 1. Clone the repository:
+`git clone https://github.com/HaykuhiMk/Stock-Trading-System.git`
